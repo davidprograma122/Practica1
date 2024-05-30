@@ -1,12 +1,9 @@
 package vista;
-
-
-
 /**
  *
  * @author david
  */
-public class Main {
+public class MainEstructurado {
     //1.- METODO TRADUCTOR O INTERPRETE 
     public static void main(String[] args) {
         //DECLARACIÓN DE LISTA
