@@ -30,7 +30,60 @@ public class Usuario {
         this.direccion = direccion;
         this.correoElectronico = correoElectronico;
     }
-    
-        
-    
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public char getInicial() {
+        return inicial;
+    }
+
+    public void setInicial(char inicial) {
+        this.inicial = inicial;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getCorreoElectronico() {
+        return correoElectronico;
+    }
+
+    public void setCorreoElectronico(String correoElectronico) {
+        this.correoElectronico = correoElectronico;
+    }
+    public void imprimir(){
+        System.out.println("------------DATOS DEL OBAJETO------------");
+        System.out.println("Nombre: "+getNombre()+"\n"+
+                "Apellido: "+getApellido()+"\n"+
+                "Inicial: "+getInicial()+"\n"+
+                "Dirección: "+getDireccion()+"\n"+
+                "Correo: "+getCorreoElectronico());
+    }
+    public String imprimir1(){
+            return "Ingrese los datos \n"+
+                    "Nombre: "+getNombre()+"\n"+
+                    "Apellido: "+getApellido()+"\n"+
+                    "Inicial: "+getInicial()+"\n"+
+                    "Dirección: "+getDireccion()+"\n"+
+                    "Correo: "+getCorreoElectronico();
+    }
 }
